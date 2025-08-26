@@ -32,5 +32,8 @@
     "ogTitle": "MicroGig",
     "ogDescription": "Earn crypto by completing tasks for creators.",
     "ogImageUrl": "https://micro-gigs.vercel.app/og.png"
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0xB5A88f606770456e27AA08DCc04d138DB695d7bf"]
   }
 }
