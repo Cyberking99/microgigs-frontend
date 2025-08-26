@@ -31,6 +31,11 @@ export async function generateMetadata(): Promise<Metadata> {
           },
         },
       }),
+      "baseBuilder": [
+        JSON.stringify({
+          allowedAddresses: ["0xB5A88f606770456e27AA08DCc04d138DB695d7bf"]
+        })
+      ],
     },
   };
 }
